@@ -28,7 +28,9 @@ The Genome Alignment graph is a typical visualization widely used to help resear
 
  The graph provides an example of using IGV to observe alternative splicing. Human g18 is used as the reference genome, and the input files are the alignment file from human liver cell tissue and heart cell tissue. From the Coverage track and the Alignment track, it can be observed the sequence fragments align significantly differently in the gene *SLC25A3*, a phosphate transfer gene. This is one example of using IGV to monitor alternative splicing.   
 
-## 2. PCA plot in differential expression analysis
+## 2. Principal Component Analysis (PCA)
+Simplifying large datasets like the transcriptomes, Principal Component Analysis (PCA) is a useful classical dimensionality-reduction method that is often used to reduce the dimensionality of large data sets, by transforming a large set of variables into a smaller one that still captures most of the information in the large set. It is done by transforming the variables to a new set of variables, which are known as the principal components (PCs), which are orthogonal to each other,and it is ordered such that the retention of variation present in the original variables decreases as moving down the PCs. Therefore, most variation is explained by the 1st pc and after controlling, the remaining variation is explained by the 2nd pc. 
+ 
 
 
 ## 3. Heat Map 
@@ -41,3 +43,5 @@ The Genome Alignment graph is a typical visualization widely used to help resear
 5. https://alexslemonade.github.io/refinebio-examples/03-rnaseq/dimension-reduction_rnaseq_01_pca.html
 6. https://blog.bioturing.com/2018/06/14/principal-component-analysis-explained-simply/
 7. Wang, S., Zhang, Y., Hu, C. et al. Shiny-DEG: A Web Application to Analyze and Visualize Differentially Expressed Genes in RNA-seq. Interdiscip Sci Comput Life Sci 12, 349–354 (2020). https://doi.org/10.1007/s12539-020-00383-7
+8. https://builtin.com/data-science/step-step-explanation-principal-component-analysis
+9. https://www.projectpro.io/data-science-in-python-tutorial/principal-component-analysis-tutorial
